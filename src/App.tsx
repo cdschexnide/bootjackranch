@@ -83,7 +83,7 @@ function App() {
       </section>
       <footer>
         <p>
-          &copy; {new Date().getFullYear()} Armadillo Waste. All rights
+          &copy; {new Date().getFullYear()} Armadillo Waste Inc. All rights
           reserved.
         </p>
       </footer>
