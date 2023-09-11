@@ -73,11 +73,11 @@ function App() {
           <br />
           <strong>Address:</strong> 16931 Cairngale Street
           <br />
-          <strong>ZIP Code:</strong> 77084
-          <br />
           <strong>City:</strong> Houston
           <br />
           <strong>State:</strong> Texas
+          <br />
+          <strong>ZIP Code:</strong> 77084
           <br />
         </address>
       </section>
