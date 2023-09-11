@@ -94,6 +94,8 @@ footer {
   border: 1px solid #e0e0e0;
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: #eae8e8;
+  color: black;
 }
 
 .contact-form button {
@@ -147,5 +149,9 @@ footer {
     width: 100%;
     padding: 8px;
     margin-bottom: 8px;
+    background-color: #eae8e8;
+    color: black;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
   }
 }
