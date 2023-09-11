@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Armadillo Waste</h1>
+        <h1>Armadillo Waste Inc.</h1>
         <div style={{ color: "black" }}>
           Junk hauler and bulk item removal in Houston, Texas
         </div>
@@ -67,11 +67,13 @@ function App() {
       <section>
         <h2>Contact Us</h2>
         <address style={{ color: "black" }}>
-          <strong>Address:</strong> 5910 Navigation Blvd, Houston, TX 77011
+          <strong>Address:</strong> 16931 Cairngale Street
           <br />
-          <strong>Phone:</strong> +1 713-921-5000
+          <strong>Office:</strong> +1 832-379-9661
           <br />
-          <strong>ZIP Code:</strong> 77011
+          <strong>Cell:</strong> +1 281-855-6358
+          <br />
+          <strong>ZIP Code:</strong> 77084
           <br />
           <strong>City:</strong> Houston
           <br />
