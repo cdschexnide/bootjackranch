@@ -154,4 +154,10 @@ footer {
     border: 1px solid #e0e0e0;
     border-radius: 4px;
   }
+  .contact-form button {
+    background-color: rgb(179, 42, 42);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
 }
