@@ -67,11 +67,11 @@ function App() {
       <section>
         <h2>Contact Us</h2>
         <address style={{ color: "black" }}>
-          <strong>Address:</strong> 16931 Cairngale Street
-          <br />
           <strong>Office:</strong> +1 832-379-9661
           <br />
           <strong>Cell:</strong> +1 281-855-6358
+          <br />
+          <strong>Address:</strong> 16931 Cairngale Street
           <br />
           <strong>ZIP Code:</strong> 77084
           <br />
