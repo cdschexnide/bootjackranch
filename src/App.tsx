@@ -13,7 +13,9 @@ function App() {
       email: email,
       message: message,
     };
-
+    console.log("name: ", name);
+    console.log("email: ", email);
+    console.log("message: ", message);
     try {
       const response = await fetch("/api/sendEmail", {
         method: "POST",
@@ -25,11 +27,14 @@ function App() {
 
       if (response.ok) {
         alert("Email sent successfully!");
+        console.log("Email sent successfully");
       } else {
         alert("Error sending email.");
+        console.log("Error sending email");
       }
     } catch (error) {
       alert("There was an error sending your message.");
+      console.log("error: ", error);
     }
   }
 
