@@ -1,6 +1,38 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const data = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        alert("Email sent successfully!");
+      } else {
+        alert("Error sending email.");
+      }
+    } catch (error) {
+      alert("There was an error sending your message.");
+    }
+  }
+
   return (
     <div className="container">
       <header>
@@ -43,23 +75,36 @@ function App() {
 
       <section>
         <h2 style={{ color: "#333" }}>Get in Touch</h2>
-        <form
-          className="contact-form"
-          onSubmit={e => {
-            e.preventDefault(); /* Handle the submit here */
-          }}
-        >
+        <form className="contact-form" onSubmit={handleSubmit}>
           <label style={{ color: "black" }}>
             Name:
-            <input type="text" name="name" required />
+            <input
+              type="text"
+              value={name}
+              onChange={e => setName(e.target.value)}
+              name="name"
+              required
+            />
           </label>
           <label style={{ color: "black" }}>
             Email:
-            <input type="email" name="email" required />
+            <input
+              type="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              name="email"
+              required
+            />
           </label>
           <label style={{ color: "black" }}>
             Message:
-            <textarea name="message" rows={5} required></textarea>
+            <textarea
+              name="message"
+              value={message}
+              onChange={e => setMessage(e.target.value)}
+              rows={5}
+              required
+            ></textarea>
           </label>
           <button type="submit">Submit</button>
         </form>
