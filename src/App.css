@@ -134,7 +134,7 @@ footer {
   }
 
   section h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-bottom: 5px;
     margin-bottom: 15px;
   }
@@ -160,4 +160,26 @@ footer {
     cursor: pointer;
     border: none;
   }
+}
+
+.list-1 {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 0.3rem;
+  font-size: 1.05rem;
+}
+
+.list-2 {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  font-size: 1.05rem;
+}
+
+.subheaders {
+  color: black;
+  font-size: 21px;
 }

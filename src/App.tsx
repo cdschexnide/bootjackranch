@@ -55,26 +55,20 @@ function App() {
           comprehensive solutions for full waste removal.
         </p>
         <h2>Services</h2>
-        <h3 style={{ color: "black" }}>Rental Services</h3>
+        <h3 className="subheaders">Rental Services</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
+          <ul className="list-1">
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
             <li style={{ color: "black" }}>Roll-Off Dumpster</li>
             <li style={{ color: "black" }}>Dumpster Rental for Demolitions</li>
             <li style={{ color: "black" }}>
-              Temporary Roll-Off Dumpsters for Home & Business
+              Temporary Roll-Off Dumpsters for Home and Business
             </li>
           </ul>
         </div>
-        <h3 style={{ color: "black" }}>Container Sizes Available</h3>
+        <h3 className="subheaders">Container Sizes Available</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul
-            style={{
-              textAlign: "left",
-              marginTop: 0,
-              paddingTop: 0,
-            }}
-          >
+          <ul className="list-1">
             <li style={{ color: "black" }}>
               15 yard Box container {`(3ft tall x 8ft wide x 12ft long)`}
             </li>
@@ -89,9 +83,9 @@ function App() {
             </li>
           </ul>
         </div>
-        <h3 style={{ color: "black" }}>Acceptable Waste:</h3>
+        <h3 className="subheaders">Acceptable Waste</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
+          <ul className="list-2">
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
             <li style={{ color: "black" }}>
               Commercial appliances such as refrigerators
@@ -110,9 +104,9 @@ function App() {
             </li>
           </ul>
         </div>
-        <h3 style={{ color: "black" }}>Non-Acceptable Waste:</h3>
+        <h3 className="subheaders">Non-Acceptable Waste</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
+          <ul className="list-1">
             <li style={{ color: "black" }}>Tires</li>
             <li style={{ color: "black" }}>TV's</li>
             <li style={{ color: "black" }}>Paint</li>
