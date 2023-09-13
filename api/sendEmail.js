@@ -23,8 +23,8 @@ export default async (req, res) => {
     const result = await mailjet.post("send", { version: "v3.1" }).request({
       Messages: [
         {
-          From: { Email: "your@email.com", Name: "Your Name" },
-          To: [{ Email: "destination@email.com", Name: "Recipient Name" }],
+          From: { Email: email, Name: name },
+          To: [{ Email: "codydschexnider@gmail.com", Name: "Recipient Name" }],
           Subject: `New message from ${name}`,
           TextPart: `From: ${name}\nEmail: ${email}\n\n${message}`,
         },
