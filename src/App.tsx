@@ -8,65 +8,30 @@ function App() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // const data = {
-    //   name: name,
-    //   email: email,
-    //   message: message,
-    // };
-    // console.log("name: ", name);
-    // console.log("email: ", email);
-    // console.log("message: ", message);
-    const mailjetData = {
-      Messages: [
-        {
-          From: {
-            Email: email, // Replace with the sender's email. Can be your business email.
-            Name: name,
-          },
-          To: [
-            {
-              Email: "cody.schexnider@codesmith.io", // Replace with the email you want to forward to.
-              Name: "Recipient Name", // Replace with the name of the recipient.
-            },
-          ],
-          Subject: "New Contact Form Submission",
-          TextPart: `From: ${name} <${email}>\n\n${message}`,
-        },
-      ],
+    const data = {
+      name: name,
+      email: email,
+      message: message,
     };
+    console.log("name: ", name);
+    console.log("email: ", email);
+    console.log("message: ", message);
     try {
-      // const response = await fetch("/api/sendEmail", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      //   body: JSON.stringify(data),
-      // });
-      const mailjetResponse = await fetch("https://api.mailjet.com/v3.1/send", {
+      const response = await fetch("/api/sendEmail", {
         method: "POST",
         headers: {
-          Authorization:
-            "Basic " +
-            Buffer.from(
-              process.env.MAILJET_API_KEY + ":" + process.env.MAILJET_SECRET_KEY
-            ).toString("base64"),
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(mailjetData),
+        body: JSON.stringify(data),
       });
 
-      if (!mailjetResponse.ok) {
-        console.error("Mailjet error", await mailjetResponse.text());
-        return;
+      if (response.ok) {
+        alert("Email sent successfully!");
+        console.log("Email sent successfully");
+      } else {
+        alert("Error sending email.");
+        console.log("Error sending email");
       }
-
-      // if (response.ok) {
-      //   alert("Email sent successfully!");
-      //   console.log("Email sent successfully");
-      // } else {
-      //   alert("Error sending email.");
-      //   console.log("Error sending email");
-      // }
     } catch (error) {
       alert("There was an error sending your message.");
       console.log("error: ", error);
