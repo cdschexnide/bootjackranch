@@ -43,7 +43,7 @@ function App() {
       <header>
         <h1>Armadillo Waste Inc.</h1>
         <div style={{ color: "black" }}>
-          Junk hauler and bulk item removal in Houston, Texas
+          Dump your mess with success, with afforable and quality service
         </div>
       </header>
 
