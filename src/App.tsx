@@ -161,7 +161,9 @@ function App() {
       <section>
         <h2>Contact Info</h2>
         <address style={{ color: "black" }}>
-          <div>Office Location:</div>
+          <div>
+            <strong>Office Location:</strong>
+          </div>
           <div>16931 Cairngale Street</div>
           <div>Houston, TX 77084</div>
           <strong>Main #:</strong> 832-379-9661
