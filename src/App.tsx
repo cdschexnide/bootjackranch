@@ -24,7 +24,7 @@ function App() {
         },
         body: JSON.stringify(data),
       });
-
+      console.log("response: ", response);
       if (response.ok) {
         alert("Email sent successfully!");
         console.log("Email sent successfully");
