@@ -27,7 +27,9 @@ export default async (req, res) => {
             Email: "codydschexnider@gmail.com",
             Name: "Cody Schexnider",
           },
-          To: [{ Email: "codydschexnider@gmail.com", Name: "Recipient Name" }],
+          To: [
+            { Email: "cody.schexnider@codesmith.io", Name: "Recipient Name" },
+          ],
           Subject: `New message from ${name}`,
           TextPart: `From: ${name}\nEmail: ${email}\n\n${message}`,
         },
