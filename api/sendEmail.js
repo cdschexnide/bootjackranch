@@ -24,7 +24,7 @@ export default async (req, res) => {
       Messages: [
         {
           From: {
-            Email: "cody.schexnider@codesmith.io",
+            Email: "codydschexnider@gmail.com",
             Name: "Cody Schexnider",
           },
           To: [{ Email: "codydschexnider@gmail.com", Name: "Recipient Name" }],
