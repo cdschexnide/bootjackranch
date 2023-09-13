@@ -89,7 +89,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <h3 style={{ color: "#333" }}>Acceptable Waste:</h3>
+        <h3 style={{ color: "black" }}>Acceptable Waste:</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
@@ -110,7 +110,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <h3 style={{ color: "#333" }}>Non-Acceptable Waste:</h3>
+        <h3 style={{ color: "black" }}>Non-Acceptable Waste:</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
             <li style={{ color: "black" }}>Tires</li>
@@ -173,12 +173,19 @@ function App() {
       </section>
       <section>
         <h2>Hours of Operation</h2>
-        <div style={{ display: "flex", color: "black" }}>
+        <div
+          style={{
+            display: "flex",
+            color: "black",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <span>
             <div>M-F</div>
             <div>6am-5pm</div>
           </span>
-          <span>
+          <span style={{ marginLeft: 30 }}>
             <div>Sat</div>
             <div>6am-12pm</div>
           </span>
