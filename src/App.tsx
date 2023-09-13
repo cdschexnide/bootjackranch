@@ -50,12 +50,47 @@ function App() {
       <section>
         <h2>About Us</h2>
         <p style={{ color: "black" }}>
-          Armadillo Waste specializes in hauling junk and removing bulk items in
-          the Houston area. Whether it's yard waste, commercial appliances, home
-          furniture, construction debris, or any other unwanted items, we have
-          you covered.
+          Armadillo Waste is an independent waste management company, servicing
+          Houston and surrounding cities for 12 years & counting. We provide
+          comprehensive solutions for full waste removal.
         </p>
-        <h3 style={{ color: "#333" }}>We can assist with:</h3>
+        <h2>Services</h2>
+        <h3>Rental Services</h3>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
+            <li style={{ color: "black" }}>Yard waste and bagged debris</li>
+            <li style={{ color: "black" }}>Roll-Off Dumpster</li>
+            <li style={{ color: "black" }}>Dumpster Rental for Demolitions</li>
+            <li style={{ color: "black" }}>
+              Temporary Roll-Off Dumpsters for Home & Business
+            </li>
+          </ul>
+        </div>
+        <h3>Container Sizes Available</h3>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <ul
+            style={{
+              textAlign: "left",
+              marginTop: 0,
+              paddingTop: 0,
+              listStyle: "none",
+            }}
+          >
+            <li style={{ color: "black" }}>
+              - 15 yard Box container {`3ft tall x 8ft wide x 12ft long`}
+            </li>
+            <li style={{ color: "black" }}>
+              - 20 yard Box container {`3ft tall x 8ft wide x 22ft long`}
+            </li>
+            <li style={{ color: "black" }}>
+              - 30 yard Box container {`5ft tall x 8ft wide x 22ft long`}
+            </li>
+            <li style={{ color: "black" }}>
+              - 40 yard Box container {`7ft tall x 8ft wide x 22ft long`}
+            </li>
+          </ul>
+        </div>
+        <h3 style={{ color: "#333" }}>Acceptable Waste:</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
@@ -74,6 +109,15 @@ function App() {
             <li style={{ color: "black" }}>
               Foreclosure clean-outs and much more
             </li>
+          </ul>
+        </div>
+        <h3 style={{ color: "#333" }}>Non-Acceptable Waste:</h3>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
+            <li style={{ color: "black" }}>Tires</li>
+            <li style={{ color: "black" }}>TV's</li>
+            <li style={{ color: "black" }}>Paint</li>
+            <li style={{ color: "black" }}>Hazardous Waste</li>
           </ul>
         </div>
       </section>
@@ -115,21 +159,29 @@ function App() {
         </form>
       </section>
       <section>
-        <h2>Contact Us</h2>
+        <h2>Contact Info</h2>
         <address style={{ color: "black" }}>
-          <strong>Office:</strong> +1 832-379-9661
+          <h3>Office Location</h3>
+          <div>16931 Cairngale Street</div>
+          <div>Houston, TX 77084</div>
+          <strong>Main #:</strong> 832-379-9661
           <br />
-          <strong>Cell:</strong> +1 281-855-6358
-          <br />
-          <strong>Address:</strong> 16931 Cairngale Street
-          <br />
-          <strong>City:</strong> Houston
-          <br />
-          <strong>State:</strong> Texas
-          <br />
-          <strong>ZIP Code:</strong> 77084
+          <strong>Office #:</strong> 832-574-2689
           <br />
         </address>
+      </section>
+      <section>
+        <h2>Hours of Operation</h2>
+        <div>
+          <span>
+            <div>M-F</div>
+            <div>6am-5pm</div>
+          </span>
+          <span>
+            <div>Sat</div>
+            <div>6am-12pm</div>
+          </span>
+        </div>
       </section>
       <footer>
         <p>
