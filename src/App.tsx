@@ -55,7 +55,7 @@ function App() {
           comprehensive solutions for full waste removal.
         </p>
         <h2>Services</h2>
-        <h3>Rental Services</h3>
+        <h3 style={{ color: "black" }}>Rental Services</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul style={{ textAlign: "left", marginTop: 0, paddingTop: 0 }}>
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
@@ -66,27 +66,26 @@ function App() {
             </li>
           </ul>
         </div>
-        <h3>Container Sizes Available</h3>
+        <h3 style={{ color: "black" }}>Container Sizes Available</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul
             style={{
               textAlign: "left",
               marginTop: 0,
               paddingTop: 0,
-              listStyle: "none",
             }}
           >
             <li style={{ color: "black" }}>
-              - 15 yard Box container {`3ft tall x 8ft wide x 12ft long`}
+              15 yard Box container {`3ft tall x 8ft wide x 12ft long`}
             </li>
             <li style={{ color: "black" }}>
-              - 20 yard Box container {`3ft tall x 8ft wide x 22ft long`}
+              20 yard Box container {`3ft tall x 8ft wide x 22ft long`}
             </li>
             <li style={{ color: "black" }}>
-              - 30 yard Box container {`5ft tall x 8ft wide x 22ft long`}
+              30 yard Box container {`5ft tall x 8ft wide x 22ft long`}
             </li>
             <li style={{ color: "black" }}>
-              - 40 yard Box container {`7ft tall x 8ft wide x 22ft long`}
+              40 yard Box container {`7ft tall x 8ft wide x 22ft long`}
             </li>
           </ul>
         </div>
@@ -174,7 +173,7 @@ function App() {
       </section>
       <section>
         <h2>Hours of Operation</h2>
-        <div>
+        <div style={{ display: "flex", color: "black" }}>
           <span>
             <div>M-F</div>
             <div>6am-5pm</div>
