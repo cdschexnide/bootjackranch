@@ -76,16 +76,16 @@ function App() {
             }}
           >
             <li style={{ color: "black" }}>
-              15 yard Box container {`3ft tall x 8ft wide x 12ft long`}
+              15 yard Box container {`(3ft tall x 8ft wide x 12ft long)`}
             </li>
             <li style={{ color: "black" }}>
-              20 yard Box container {`3ft tall x 8ft wide x 22ft long`}
+              20 yard Box container {`(3ft tall x 8ft wide x 22ft long)`}
             </li>
             <li style={{ color: "black" }}>
-              30 yard Box container {`5ft tall x 8ft wide x 22ft long`}
+              30 yard Box container {`(5ft tall x 8ft wide x 22ft long)`}
             </li>
             <li style={{ color: "black" }}>
-              40 yard Box container {`7ft tall x 8ft wide x 22ft long`}
+              40 yard Box container {`(7ft tall x 8ft wide x 22ft long)`}
             </li>
           </ul>
         </div>
