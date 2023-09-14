@@ -24,11 +24,12 @@ export default async (req, res) => {
       Messages: [
         {
           From: {
-            Email: "codydschexnider@gmail.com",
-            Name: "Cody Schexnider",
+            Email: email,
+            Name: name,
           },
           To: [
-            { Email: "armadillowaste_inc@yahoo.com", Name: "Recipient Name" },
+            // { Email: "armadillowaste_inc@yahoo.com", Name: "Business Owner" },
+            { Email: "cody.schexnider@codesmith.io", Name: "Business Owner" },
           ],
           Subject: `New message from ${name}`,
           TextPart: `From: ${name}\nEmail: ${email}\n\n${message}`,
