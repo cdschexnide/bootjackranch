@@ -49,7 +49,7 @@ function App() {
 
       <section>
         <h2>About Us</h2>
-        <p style={{ color: "black" }}>
+        <p className="about-us">
           Armadillo Waste is an independent waste management company, servicing
           Houston and surrounding cities for 12 years & counting. We provide
           comprehensive solutions for full waste removal.
@@ -68,7 +68,7 @@ function App() {
         </div>
         <h3 className="subheaders">Container Sizes Available</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-1">
+          <ul className="list-2">
             <li style={{ color: "black" }}>
               15 yard Box container {`(3ft tall x 8ft wide x 12ft long)`}
             </li>
@@ -85,7 +85,7 @@ function App() {
         </div>
         <h3 className="subheaders">Acceptable Waste</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-2">
+          <ul className="list-3">
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
             <li style={{ color: "black" }}>
               Commercial appliances such as refrigerators
@@ -106,11 +106,11 @@ function App() {
         </div>
         <h3 className="subheaders">Non-Acceptable Waste</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-1">
+          <ul className="list-4">
             <li style={{ color: "black" }}>Tires</li>
             <li style={{ color: "black" }}>TV's</li>
             <li style={{ color: "black" }}>Paint</li>
-            <li style={{ color: "black" }}>Hazardous Waste</li>
+            <li style={{ color: "black" }}>Hazard Waste</li>
           </ul>
         </div>
       </section>

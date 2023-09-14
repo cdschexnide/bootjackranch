@@ -166,7 +166,7 @@ footer {
   text-align: left;
   margin-top: 0px;
   padding-top: 0px;
-  margin-left: 0.3rem;
+  margin-left: 3rem;
   font-size: 1.05rem;
 }
 
@@ -174,12 +174,38 @@ footer {
   text-align: left;
   margin-top: 0px;
   padding-top: 0px;
+  margin-left: 1.5rem;
+  /* margin-right: 0.3rem; */
+  font-size: 1.05rem;
+}
+
+.list-3 {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
   margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  font-size: 1.05rem;
+}
+
+.list-4 {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 0rem;
+  margin-right: 1rem;
   font-size: 1.05rem;
 }
 
 .subheaders {
   color: black;
   font-size: 21px;
+}
+
+.about-us {
+  /* text-align: left; */
+  /* margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 3rem; */
+  font-size: 1.2rem;
+  color: black;
 }
