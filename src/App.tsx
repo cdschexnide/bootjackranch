@@ -107,10 +107,10 @@ function App() {
         <h3 className="subheaders">Non-Acceptable Waste</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul className="list-4">
-            <li style={{ color: "black" }}>Tires</li>
+            <li style={{ color: "black" }}>Hazard Waste</li>
             <li style={{ color: "black" }}>TV's</li>
             <li style={{ color: "black" }}>Paint</li>
-            <li style={{ color: "black" }}>Hazard Waste</li>
+            <li style={{ color: "black" }}>Tires</li>
           </ul>
         </div>
       </section>

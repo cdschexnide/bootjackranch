@@ -110,7 +110,7 @@ footer {
   margin-left: 0px;
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   #root {
     max-width: 100%;
     padding: 1rem;
@@ -159,6 +159,53 @@ footer {
     color: #fff;
     cursor: pointer;
     border: none;
+  }
+  .list-1 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0.5rem !important;
+    font-size: 1.15rem !important;
+  }
+
+  .list-2 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0.4rem !important;
+    font-size: 1.15rem !important;
+  }
+
+  .list-3 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0.5rem !important;
+    margin-right: 1.2rem !important;
+    font-size: 1.15rem !important;
+  }
+
+  .list-4 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0rem !important;
+    margin-right: 1.5rem !important;
+    font-size: 1.15rem !important;
+  }
+
+  .subheaders {
+    color: black;
+    font-size: 21px;
+  }
+
+  .about-us {
+    /* text-align: left; */
+    /* margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 3rem; */
+    font-size: 1.2rem !important;
+    color: black;
   }
 }
 
