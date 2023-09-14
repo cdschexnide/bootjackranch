@@ -42,7 +42,7 @@ function App() {
     <div className="container">
       <header>
         <h1>Armadillo Waste Inc.</h1>
-        <div style={{ color: "black" }}>
+        <div className="about-us" style={{ color: "black" }}>
           Dump your mess with success, with afforable and quality service
         </div>
       </header>
