@@ -29,7 +29,7 @@ export default async (req, res) => {
           },
           To: [
             // { Email: "armadillowaste_inc@yahoo.com", Name: "Business Owner" },
-            { Email: "cody.schexnider@codesmith.io", Name: "Business Owner" },
+            { Email: "codydschexnider@gmail.com", Name: "Business Owner" },
           ],
           Subject: `New message from ${name}`,
           TextPart: `From: ${name}\nEmail: ${email}\n\n${message}`,
