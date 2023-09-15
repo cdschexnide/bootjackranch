@@ -17,13 +17,22 @@ function App() {
     console.log("email: ", email);
     console.log("message: ", message);
     try {
-      const response = await fetch("/api/sendEmail", {
+      // const response = await fetch("/api/sendEmail", {
+      //   method: "POST",
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify(data),
+      // });
+      const response = await fetch("/api/sendNodemail", {
+        // Update this URL
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
+
       console.log("response: ", response);
       if (response.ok) {
         alert("Email sent successfully!");
