@@ -112,6 +112,11 @@ function App() {
         >
           Dump your mess with success, with afforable and quality service
         </div>
+        <img
+          style={{ width: 180, height: 130, marginTop: "1.5rem" }}
+          src={truck}
+          alt="truck photo"
+        />
       </header>
 
       <section>
@@ -121,11 +126,6 @@ function App() {
           Houston and surrounding cities for 12 years & counting. We provide
           comprehensive solutions for full waste removal.
         </p>
-        <img
-          style={{ width: 180, height: 130 }}
-          src={truck}
-          alt="truck photo"
-        />
         <h2>Services</h2>
         <h3 className="subheaders">Rental Services</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
