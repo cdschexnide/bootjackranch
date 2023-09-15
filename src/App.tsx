@@ -105,7 +105,10 @@ function App() {
             Armadillo Waste Inc.
           </div>
         </div>
-        <div className="about-us" style={{ color: "black" }}>
+        <div
+          className="about-us"
+          style={{ color: "black", marginTop: "0.5rem" }}
+        >
           Dump your mess with success, with afforable and quality service
         </div>
       </header>
