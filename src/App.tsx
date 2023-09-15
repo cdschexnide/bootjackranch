@@ -113,13 +113,18 @@ function App() {
           Dump your mess with success, with afforable and quality service
         </div>
         <img
-          style={{ width: 270, height: 195, marginTop: "1.5rem" }}
+          style={{
+            width: 270,
+            height: 195,
+            marginTop: "1.5rem",
+            marginBottom: "0rem",
+          }}
           src={truck}
           alt="truck photo"
         />
       </header>
 
-      <section>
+      <section style={{ transform: "translate(0rem, -1rem)" }}>
         <h2>About Us</h2>
         <p className="about-us">
           Armadillo Waste is an independent waste management company, servicing
