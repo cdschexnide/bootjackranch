@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import armadilloLogo from "../src/assets/red-armadillo-logo2.png";
+import truck from "../src/assets/truck.png";
 
 function App() {
   const [name, setName] = useState<string>("");
@@ -171,13 +172,25 @@ function App() {
           </ul>
         </div>
         <h3 className="subheaders">Non-Acceptable Waste</h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-4">
-            <li style={{ color: "black" }}>Hazard Waste</li>
-            <li style={{ color: "black" }}>TV's</li>
-            <li style={{ color: "black" }}>Paint</li>
-            <li style={{ color: "black" }}>Tires</li>
-          </ul>
+        <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+          <img
+            style={{ width: 180, height: 130 }}
+            src={truck}
+            alt="truck photo"
+          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <ul className="list-4">
+              <li style={{ color: "black" }}>Hazard Waste</li>
+              <li style={{ color: "black" }}>TV's</li>
+              <li style={{ color: "black" }}>Paint</li>
+              <li style={{ color: "black" }}>Tires</li>
+            </ul>
+          </div>
+          <img
+            style={{ width: 180, height: 130 }}
+            src={truck}
+            alt="truck photo"
+          />
         </div>
       </section>
 
