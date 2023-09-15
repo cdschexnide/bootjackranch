@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import armadilloLogo from "../src/assets/armadillo-logo2.png";
 
 function App() {
   const [name, setName] = useState<string>("");
@@ -50,7 +51,43 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Armadillo Waste Inc.</h1>
+        <h1 style={{ display: "flex", justifyContent: "space-evenly" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              style={{ width: 90, height: 50 }}
+              src={armadilloLogo}
+              alt="armadillo logo"
+            />
+            <div style={{ fontSize: "12px", fontWeight: 300, color: "black" }}>
+              Armadillo Waste Inc.
+            </div>
+          </div>
+          Armadillo Waste Inc.
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              style={{ width: 90, height: 50 }}
+              src={armadilloLogo}
+              alt="armadillo logo"
+            />
+            <div style={{ fontSize: "12px", fontWeight: 300, color: "black" }}>
+              Armadillo Waste Inc.
+            </div>
+          </div>
+        </h1>
         <div className="about-us" style={{ color: "black" }}>
           Dump your mess with success, with afforable and quality service
         </div>
