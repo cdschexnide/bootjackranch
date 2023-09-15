@@ -28,9 +28,8 @@ export default async (req, res) => {
             Name: "Message.From.Name",
           },
           To: [
-            // { Email: "armadillowaste_inc@yahoo.com", Name: "Business Owner" },
             {
-              Email: "cody.schexnider@codesmith.io",
+              Email: "armadillowaste_inc@yahoo.com",
               Name: "Armadillo Waste Inc.",
             },
           ],
