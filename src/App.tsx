@@ -113,7 +113,7 @@ function App() {
           Dump your mess with success, with afforable and quality service
         </div>
         <img
-          style={{ width: 180, height: 130, marginTop: "1.5rem" }}
+          style={{ width: 270, height: 195, marginTop: "1.5rem" }}
           src={truck}
           alt="truck photo"
         />
