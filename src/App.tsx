@@ -8,6 +8,9 @@ function App() {
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
 
+  const mapsUrl: string =
+    "https://www.google.com/maps/place/Armadillo+Waste+Inc./@29.8435808,-95.6632055,17z/data=!4m14!1m7!3m6!1s0x8640d99bbd67858f:0x1da332384cd068bb!2sArmadillo+Waste+Inc.!8m2!3d29.8435762!4d-95.6606252!16s%2Fg%2F11l2gx5by9!3m5!1s0x8640d99bbd67858f:0x1da332384cd068bb!8m2!3d29.8435762!4d-95.6606252!16s%2Fg%2F11l2gx5by9?entry=ttu";
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const data = {
@@ -234,8 +237,10 @@ function App() {
           <div>
             <strong>Office Location:</strong>
           </div>
-          <div>16931 Cairngale Street</div>
-          <div>Houston, TX 77084</div>
+          <a href={mapsUrl} target="_blank" rel="noopener noreferrer">
+            <div>16931 Cairngale Street</div>
+            <div>Houston, TX 77084</div>
+          </a>
           <strong>Main #:</strong> 832-379-9661
           <br />
           <strong>Office #:</strong> 832-574-2689
