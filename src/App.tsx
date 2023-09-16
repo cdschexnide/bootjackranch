@@ -237,7 +237,12 @@ function App() {
           <div>
             <strong>Office Location:</strong>
           </div>
-          <a href={mapsUrl} target="_blank" rel="noopener noreferrer">
+          <a
+            style={{ color: "black" }}
+            href={mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div>16931 Cairngale Street</div>
             <div>Houston, TX 77084</div>
           </a>
