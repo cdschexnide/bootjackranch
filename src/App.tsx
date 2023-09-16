@@ -239,7 +239,6 @@ function App() {
           </div>
           <a
             className="address-link"
-            style={{ color: "black" }}
             href={mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
