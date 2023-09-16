@@ -352,3 +352,11 @@ footer {
   font-size: 1.1rem;
   color: black;
 }
+
+.address-link {
+  color: black;
+}
+
+.address-link:hover {
+  text-decoration: underline;
+}

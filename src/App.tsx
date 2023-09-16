@@ -238,6 +238,7 @@ function App() {
             <strong>Office Location:</strong>
           </div>
           <a
+            className="address-link"
             style={{ color: "black" }}
             href={mapsUrl}
             target="_blank"
