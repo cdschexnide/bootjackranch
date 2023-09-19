@@ -25,12 +25,12 @@ export default async (req, res) => {
         {
           From: {
             Email: "codydschexnider@gmail.com",
-            Name: "Message.From.Name",
+            Name: "Cody Schexnider",
           },
           To: [
             {
-              Email: "armadillowaste_inc@yahoo.com",
-              Name: "Armadillo Waste Inc.",
+              Email: "Bootjackranchtx@gmail.com",
+              Name: "Bootjack Ranch",
             },
           ],
           Subject: `New message from ${name}`,
