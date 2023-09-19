@@ -360,3 +360,27 @@ footer {
 .address-link:hover {
   text-decoration: underline;
 }
+
+div.bootjack-ranch {
+  /* font-family: "Smokum", cursive; */
+  font-family: "Rye", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  color: #8c0c0a;
+  margin-top: 15px;
+}
+
+.bjr-logo {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #8c0c0a;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.bjr-logo:hover {
+  transform: translateY(
+    -4px
+  ); /* This will move the image up slightly on hover */
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+}

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import armadilloLogo from "../src/assets/red-armadillo-logo2.png";
-import truck from "../src/assets/truck.png";
+import bootjackRanchLogo from "../src/assets/bootjackRanchLogo.jpeg";
 
 function App() {
   const [name, setName] = useState<string>("");
@@ -101,41 +100,32 @@ function App() {
           }}
         >
           <img
-            style={{ width: 180, height: 100 }}
-            src={armadilloLogo}
-            alt="armadillo logo"
+            className="bjr-logo"
+            src={bootjackRanchLogo}
+            alt="Bootjack Ranch Logo"
           />
-          <div style={{ fontSize: "24px", fontWeight: 300, color: "#B32A2A" }}>
-            Armadillo Waste Inc.
-          </div>
+          <div className="bootjack-ranch">Bootjack Ranch</div>
         </div>
-        <div
-          className="about-us"
-          style={{ color: "black", marginTop: "0.5rem" }}
-        >
-          Dump your mess with success, with afforable and quality service
-        </div>
-        <img
-          style={{
-            width: 270,
-            height: 195,
-            marginTop: "1.5rem",
-            marginBottom: "0rem",
-          }}
-          src={truck}
-          alt="truck photo"
-        />
       </header>
 
       <section style={{ transform: "translate(0rem, -1rem)" }}>
         <h2>About Us</h2>
         <p className="about-us">
-          Armadillo Waste is an independent waste management company, servicing
-          Houston and surrounding cities for 12 years & counting. We provide
-          comprehensive solutions for full waste removal.
+          Born in the heart of Austin, Texas, Country & Western Boot Jacks
+          stands at the crossroads of tradition and craftsmanship. Each
+          handcrafted boot jack isn't just a tool, but a testament to the rugged
+          elegance of the American West.
         </p>
-        <h2>Services</h2>
-        <h3 className="subheaders">Rental Services</h3>
+        <p className="about-us">
+          Merging timeless charm with modern design, our boot jacks are more
+          than just accessories – they're companions for your boots. Crafted by
+          local artisans, each piece captures the spirit of the Lone Star State.
+          Whether you're a cowboy, an Austin music lover, or a connoisseur of
+          fine craftsmanship, Country & Western Boot Jacks is dedicated to
+          enhancing your boot-wearing journey. Welcome to our legacy. Welcome to
+          Country & Western Boot Jacks.
+        </p>
+        {/* <h3 className="subheaders">Rental Services</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <ul className="list-1">
             <li style={{ color: "black" }}>Yard waste and bagged debris</li>
@@ -192,7 +182,7 @@ function App() {
             <li style={{ color: "black" }}>Paint</li>
             <li style={{ color: "black" }}>Tires</li>
           </ul>
-        </div>
+        </div> */}
       </section>
 
       <section>
@@ -243,34 +233,14 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div>16931 Cairngale Street</div>
-            <div>Houston, TX 77084</div>
+            <div>123 Main Street</div>
+            <div>City, State Zipcode</div>
           </a>
-          <strong>Main #:</strong> 832-379-9661
+          <strong>Main #:</strong> 123-456-7890
           <br />
-          <strong>Office #:</strong> 832-574-2689
+          <strong>Office #:</strong> 123-456-7890
           <br />
         </address>
-      </section>
-      <section>
-        <h2>Hours of Operation</h2>
-        <div
-          style={{
-            display: "flex",
-            color: "black",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <span>
-            <div>M-F</div>
-            <div>6am-5pm</div>
-          </span>
-          <span style={{ marginLeft: 30 }}>
-            <div>Sat</div>
-            <div>6am-12pm</div>
-          </span>
-        </div>
       </section>
       <footer>
         <p>
