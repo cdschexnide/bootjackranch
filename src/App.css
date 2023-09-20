@@ -385,18 +385,9 @@ div.bootjack-ranch {
 }
 
 .subheader {
-  margin-top: 5px;
   color: rgb(62, 62, 62);
-  font-size: 24px;
-  margin-bottom: 0px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
   padding-bottom: 0px;
-  font-weight: 300;
-}
-
-.subheader2 {
-  color: rgb(62, 62, 62);
-  font-size: 24px;
-  margin-top: 0px;
-  padding-top: 0px;
   font-weight: 300;
 }
