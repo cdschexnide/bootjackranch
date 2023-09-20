@@ -25,14 +25,17 @@ function App() {
       //   },
       //   body: JSON.stringify(data),
       // });
-      const response = await fetch("/api/sendNodemail", {
-        // Update this URL
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "bootjackranch.vercel.app/api/sendNodemail",
+        {
+          // Update this URL
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
 
       console.log("response: ", response);
       if (response.ok) {
