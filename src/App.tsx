@@ -25,7 +25,7 @@ function App() {
       //   },
       //   body: JSON.stringify(data),
       // });
-      const response = await fetch("/api/sendNodemail", {
+      const response = await fetch("/api/sendEmail", {
         // Update this URL
         method: "POST",
         headers: {
