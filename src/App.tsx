@@ -221,6 +221,9 @@ function App() {
       <section>
         <h2>Contact Info</h2>
         <address style={{ color: "black" }}>
+          <div>
+            <strong>Location:</strong>
+          </div>
           <a
             className="address-link"
             href="#"
