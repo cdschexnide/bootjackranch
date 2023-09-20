@@ -102,9 +102,9 @@ function App() {
             alt="Bootjack Ranch Logo"
           />
           <div className="bootjack-ranch">Boot Jack Ranch</div>
-          <div className="subheader">Handmade boot jacks and western wear </div>
-          <div className="subheader2">
-            and accessories at a discounted price{" "}
+          <div className="subheader">
+            Handmade boot jacks and western wear and accessories at a discounted
+            price{" "}
           </div>
         </div>
       </header>
