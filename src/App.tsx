@@ -101,7 +101,11 @@ function App() {
             src={bootjackRanchLogo}
             alt="Bootjack Ranch Logo"
           />
-          <div className="bootjack-ranch">Bootjack Ranch</div>
+          <div className="bootjack-ranch">Boot Jack Ranch</div>
+          <div className="subheader">Handmade boot jacks and western wear </div>
+          <div className="subheader2">
+            and accessories at a discounted price{" "}
+          </div>
         </div>
       </header>
 
@@ -115,71 +119,13 @@ function App() {
         </p>
         <p className="about-us">
           Merging timeless charm with modern design, our boot jacks are more
-          than just accessories – they're companions for your boots. Crafted by
+          than just accessories - they're companions for your boots. Crafted by
           local artisans, each piece captures the spirit of the Lone Star State.
           Whether you're a cowboy, an Austin music lover, or a connoisseur of
           fine craftsmanship, Country & Western Boot Jacks is dedicated to
           enhancing your boot-wearing journey. Welcome to our legacy. Welcome to
-          Country & Western Boot Jacks.
+          Boot Jack Ranch.
         </p>
-        {/* <h3 className="subheaders">Rental Services</h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-1">
-            <li style={{ color: "black" }}>Yard waste and bagged debris</li>
-            <li style={{ color: "black" }}>Roll-Off Dumpster</li>
-            <li style={{ color: "black" }}>Dumpster Rental for Demolitions</li>
-            <li style={{ color: "black" }}>
-              Temporary Roll-Off Dumpsters for Home and Business
-            </li>
-          </ul>
-        </div>
-        <h3 className="subheaders">Container Sizes Available</h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-2">
-            <li style={{ color: "black" }}>
-              15 yard Box container {`(3ft tall x 8ft wide x 12ft long)`}
-            </li>
-            <li style={{ color: "black" }}>
-              20 yard Box container {`(3ft tall x 8ft wide x 22ft long)`}
-            </li>
-            <li style={{ color: "black" }}>
-              30 yard Box container {`(5ft tall x 8ft wide x 22ft long)`}
-            </li>
-            <li style={{ color: "black" }}>
-              40 yard Box container {`(7ft tall x 8ft wide x 22ft long)`}
-            </li>
-          </ul>
-        </div>
-        <h3 className="subheaders">Acceptable Waste</h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-3">
-            <li style={{ color: "black" }}>Yard waste and bagged debris</li>
-            <li style={{ color: "black" }}>
-              Commercial appliances such as refrigerators
-            </li>
-            <li style={{ color: "black" }}>
-              Home furniture like sofas, mattresses, and tables
-            </li>
-            <li style={{ color: "black" }}>
-              Office furniture removal and liquidation
-            </li>
-            <li style={{ color: "black" }}>
-              Construction scrap, wood, and metal recycling
-            </li>
-            <li style={{ color: "black" }}>
-              Foreclosure clean-outs and much more
-            </li>
-          </ul>
-        </div>
-        <h3 className="subheaders">Non-Acceptable Waste</h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <ul className="list-4">
-            <li style={{ color: "black" }}>Hazard Waste</li>
-            <li style={{ color: "black" }}>TV's</li>
-            <li style={{ color: "black" }}>Paint</li>
-            <li style={{ color: "black" }}>Tires</li>
-          </ul>
-        </div> */}
       </section>
 
       <section>
@@ -238,7 +184,7 @@ function App() {
       </section>
       <footer>
         <p>
-          &copy; {new Date().getFullYear()} Bootjack Ranch All rights reserved.
+          &copy; {new Date().getFullYear()} Boot Jack Ranch All rights reserved.
         </p>
       </footer>
     </div>

@@ -362,7 +362,6 @@ footer {
 }
 
 div.bootjack-ranch {
-  /* font-family: "Smokum", cursive; */
   font-family: "Rye", cursive;
   font-size: 48px;
   font-weight: 400;
@@ -383,4 +382,21 @@ div.bootjack-ranch {
     -4px
   ); /* This will move the image up slightly on hover */
   box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.subheader {
+  margin-top: 5px;
+  color: rgb(62, 62, 62);
+  font-family: "Smokum", cursive;
+  font-size: 36px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.subheader2 {
+  color: rgb(62, 62, 62);
+  font-family: "Smokum", cursive;
+  font-size: 36px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
