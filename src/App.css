@@ -387,18 +387,16 @@ div.bootjack-ranch {
 .subheader {
   margin-top: 5px;
   color: rgb(62, 62, 62);
-  font-family: "", cursive;
   font-size: 24px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-weight: 600 !important;
+  font-weight: 300;
 }
 
 .subheader2 {
   color: rgb(62, 62, 62);
-  font-family: "", cursive;
   font-size: 24px;
   margin-top: 0px;
   padding-top: 0px;
-  font-weight: 600;
+  font-weight: 300;
 }
