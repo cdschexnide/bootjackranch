@@ -112,10 +112,10 @@ function App() {
       <section style={{ transform: "translate(0rem, -1rem)" }}>
         <h2>About Us</h2>
         <p className="about-us">
-          Born in the heart of Austin, Texas, Country & Western Boot Jacks
-          stands at the crossroads of tradition and craftsmanship. Each
-          handcrafted boot jack isn't just a tool, but a testament to the rugged
-          elegance of the American West.
+          Born in the heart of Austin, Texas, Boot Jack Ranch stands at the
+          crossroads of tradition and craftsmanship. Each handcrafted boot jack
+          isn't just a tool, but a testament to the rugged elegance of the
+          American West.
         </p>
         <p className="about-us">
           Merging timeless charm with modern design, our boot jacks are more
