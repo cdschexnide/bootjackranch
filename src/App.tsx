@@ -221,21 +221,15 @@ function App() {
       <section>
         <h2>Contact Info</h2>
         <address style={{ color: "black" }}>
-          <div>
-            <strong>Office Location:</strong>
-          </div>
           <a
             className="address-link"
             href="#"
             // target="_blank"
             // rel="noopener noreferrer"
           >
-            <div>123 Main Street</div>
-            <div>City, State Zipcode</div>
+            <div>Austin, Texas</div>
           </a>
-          <strong>Main #:</strong> 123-456-7890
-          <br />
-          <strong>Office #:</strong> 123-456-7890
+          <strong>Phone #:</strong> 346-276-9862
           <br />
         </address>
       </section>
