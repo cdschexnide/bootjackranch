@@ -125,9 +125,9 @@ function App() {
           than just accessories - they're companions for your boots. Crafted by
           local artisans, each piece captures the spirit of the Lone Star State.
           Whether you're a cowboy, an Austin music lover, or a connoisseur of
-          fine craftsmanship, Country & Western Boot Jacks is dedicated to
-          enhancing your boot-wearing journey. Welcome to our legacy. Welcome to
-          Boot Jack Ranch.
+          fine craftsmanship, Boot Jack Ranch is dedicated to enhancing your
+          boot-wearing journey. Welcome to our legacy. Welcome to Boot Jack
+          Ranch.
         </p>
       </section>
 
