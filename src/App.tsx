@@ -238,8 +238,7 @@ function App() {
       </section>
       <footer>
         <p>
-          &copy; {new Date().getFullYear()} Armadillo Waste Inc. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Bootjack Ranch All rights reserved.
         </p>
       </footer>
     </div>
